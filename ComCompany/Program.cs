@@ -67,25 +67,25 @@ namespace Company
             Console.WriteLine(jeepRenegade.TurnRight());
             Console.WriteLine(jeepRenegade.Stop());
             Console.WriteLine(jeepRenegade.TurnLeft());
-            Console.WriteLine(jeepRenegade.CarInformationToString());
+            Console.WriteLine(jeepRenegade.ToString());
             Console.WriteLine(mazda6.Start());
             Console.WriteLine(mazda6.TurnLeft());
             Console.WriteLine(mazda6.TurnRight());
             Console.WriteLine(mazda6.Stop());
-            Console.WriteLine(mazda6.CarInformationToString());
+            Console.WriteLine(mazda6.ToString());
             Console.WriteLine(man_tge_3_140.Start());
             Console.WriteLine(man_tge_3_140.TurnRight());
             Console.WriteLine(man_tge_3_140.Stop());
             Console.WriteLine(man_tge_3_140.Start());
             Console.WriteLine(man_tge_3_140.TurnLeft());
             Console.WriteLine(man_tge_3_140.Stop());
-            Console.WriteLine(man_tge_3_140.CarInformationToString());
+            Console.WriteLine(man_tge_3_140.ToString());
             Console.WriteLine(jac_j7.Start());
             Console.WriteLine(jac_j7.TurnLeft());
             Console.WriteLine(jac_j7.TurnRight());
             Console.WriteLine(jac_j7.Stop());
-            Console.WriteLine(jac_j7.CarInformationToString());
-
+            Console.WriteLine(jac_j7.ToString());
+           
         }
     }
 }

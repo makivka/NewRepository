@@ -18,5 +18,17 @@ namespace Company
             carInformation.Append("\nВантажопiдйомнiсть " + CarryingCapacity + " кг.");
             return carInformation;
         }
+        public override string ToString()
+        {
+            return "Модель " + Model + "," +
+                "\nКлас " + Class + "," +
+                "\nВага " + Weight.ToString() + "," +
+                "\nВодiй " + Driver.Name + ", " +
+                "\nСтаж водiя " + Driver.DrivingExperience + " рокiв," +
+                "\nПотужнiсть двигуна " + Engine.Power.ToString() + " к.с.," +
+                "\nВиробник двигуна " + Engine.Manufacturer + ","+
+                "\nВантажопiдйомнiсть " + CarryingCapacity + " кг.";
+
+        }
     }
 }
