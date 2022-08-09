@@ -6,7 +6,7 @@ namespace Company
     {
         static void Main(string[] args)
         {
-            Driver manoliiDriver = new Driver("Манолiй", 4);
+            Driver manoliiDriver = new Driver("Манолiй", 6);
             Driver janineDriver = new Driver("Яна", 1);
             Engine tigershark_2_4 = new Engine
             {
