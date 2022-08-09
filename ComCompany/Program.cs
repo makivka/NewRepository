@@ -30,24 +30,24 @@ namespace Company
             };
             Car jeepRenegade = new Car
             {
-                CarModel = "Джип",
-                CarClass = "4х4",
+                Model = "Джип",
+                Class = "4х4",
                 Weight = 1400,
                 Driver = manoliiDriver,
                 Engine = tigershark_2_4
             };
             Car mazda6 = new Car
             {
-                CarModel = "Мазда 6",
-                CarClass = "Клас D",
+                Model = "Мазда 6",
+                Class = "Клас D",
                 Weight = 1600,
                 Driver = janineDriver,
                 Engine = mzr_2_0
             };
             Lorry man_tge_3_140 = new Lorry
             {
-                CarModel = "MAN TGE 3.140",
-                CarClass = "Фургон",
+                Model = "MAN TGE 3.140",
+                Class = "Фургон",
                 Weight = 3500,
                 Driver = manoliiDriver,
                 Engine = diesel_2_0,
@@ -55,8 +55,8 @@ namespace Company
             };
             SportCar jac_j7 = new SportCar
             {
-                CarModel = "JAC J7",
-                CarClass = "Лiфтбек D-класу",
+                Model = "JAC J7",
+                Class = "Лiфтбек D-класу",
                 Weight = 1500,
                 Driver = janineDriver,
                 Engine = gasoline_1_5,
