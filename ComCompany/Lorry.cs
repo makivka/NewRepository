@@ -8,8 +8,8 @@ namespace Company
         public override StringBuilder CarInformationToString()
         {
             StringBuilder carInformation = new StringBuilder();
-            carInformation.Append("Модель " + CarModel + ",");
-            carInformation.Append("\nКлас " + CarClass + ",");
+            carInformation.Append("Модель " + Model + ",");
+            carInformation.Append("\nКлас " + Class + ",");
             carInformation.Append("\nВага " + Weight.ToString() + " кг,");
             carInformation.Append("\nВодiй " + Driver.Name + ", ");
             carInformation.Append("\nСтаж водiя " + Driver.DrivingExperience + " рокiв,");
