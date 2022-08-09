@@ -18,23 +18,19 @@ namespace Company
         }
         public StringBuilder Start()
         {
-            StringBuilder start = new StringBuilder();
-            return start=Move("поїхали!");
+            return Move("поїхали!");
         }
         public StringBuilder Stop()
         {
-            StringBuilder stop = new StringBuilder();
-            return stop=Move("зупиняємось.");
+            return Move("зупиняємось.");
         }
         public StringBuilder TurnRight()
         {
-            StringBuilder turnRight = new StringBuilder();
-            return turnRight=Move("поворот направо.");
+            return Move("поворот направо.");
         }
         public StringBuilder TurnLeft()
         {
-            StringBuilder turnLeft = new StringBuilder();
-            return turnLeft=Move("поворот налiво.");
+            return Move("поворот налiво.");
         }
         public override string ToString()
         {
